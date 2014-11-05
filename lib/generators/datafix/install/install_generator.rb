@@ -4,7 +4,7 @@ class Datafix
   module Generators
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration
-      extend ActiveRecord::Generators::Migration
+      extend Rails::Generators::Migration
 
       # Implement the required interface for Rails::Generators::Migration.
 
